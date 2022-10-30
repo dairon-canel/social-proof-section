@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -557,20 +557,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+html {
+  scroll-behavior: smooth;
 }
 
-.font-bold {
-  font-weight: 700;
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+.attribution {
+  font-size: 11px;
+  bottom: 0;
+  text-align: center;
 }
 
-.underline {
-  text-decoration-line: underline;
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
