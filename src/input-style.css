@@ -10,6 +10,11 @@ body {
   font-family: 'League Spartan', sans-serif;
 }
 
+.title-text {
+  font-size: 1.875rem /* 30px */;
+  line-height: 1.4rem /* 36px */;
+}
+
 .attribution {
   font-size: 11px;
   bottom: 0;
