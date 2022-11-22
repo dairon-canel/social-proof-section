@@ -15,6 +15,13 @@ body {
   line-height: 1.4rem /* 36px */;
 }
 
+@media (min-width: 640px) {
+  .sm\:title-text-desktop {
+    font-size: 3.75rem /* 60px */;
+    line-height: 0.9;
+  }
+}
+
 .attribution {
   font-size: 11px;
   bottom: 0;
