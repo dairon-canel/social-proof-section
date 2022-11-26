@@ -21,6 +21,20 @@
     <header
       class="flex flex-col items-center justify-start bg-White sm:mb-16 sm:flex-row sm:justify-between"
     >
+      <picture class="fixed top-0 left-0">
+        <source
+          srcset="../images/bg-pattern-top-desktop.svg"
+          media="(min-width:640px)"
+        />
+        <img src="../images/bg-pattern-top-mobile.svg" alt="bg-top" />
+      </picture>
+      <picture class="fixed bottom-0 right-0">
+        <source
+          srcset="../images/bg-pattern-bottom-desktop.svg"
+          media="(min-width:640px)"
+        />
+        <img src="../images/bg-pattern-bottom-mobile.svg" alt="bg-bottom" />
+      </picture>
       <div>
         <h1
           class="title-text sm:title-text-desktop mt-12 text-center font-700 text-VeryDarkMagenta sm:mt-0 sm:max-w-sm sm:text-left"
@@ -140,7 +154,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://github.com/dairon-canel">Dairon Canel</a>.
     </footer>
   </body>
 </html>
