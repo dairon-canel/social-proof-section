@@ -10,6 +10,11 @@ body {
   font-family: 'League Spartan', sans-serif;
 }
 
+.fs-base {
+  font-size: 0.9375rem /* 15px */;
+  line-height: 1.5rem /* 24px */;
+}
+
 .title-text {
   font-size: 1.875rem /* 30px */;
   line-height: 1.4rem /* 36px */;
@@ -17,8 +22,14 @@ body {
 
 @media (min-width: 640px) {
   .sm\:title-text-desktop {
-    font-size: 3.75rem /* 60px */;
+    font-size: 3.25rem /* 60px */;
     line-height: 0.9;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:gap-ratings {
+    gap: 3.7rem;
   }
 }
 
